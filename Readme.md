@@ -1,0 +1,1 @@
+My agenda for a school project to learn about use a database aside python, the project is made with tkinter.

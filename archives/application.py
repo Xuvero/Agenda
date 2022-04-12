@@ -24,6 +24,7 @@ class window:
         print('The database works')
 
     def showInTreeview(self):
+        ###############Show the new number in treeview###############
         self.tree.delete(*self.tree.get_children())
 
         self.data = self.cursor.execute('select * from info order by nome asc')
@@ -38,6 +39,7 @@ class window:
         self.email = self.inpMail.get()
 
     def addTable(self):
+        ###############Add a number###############
         self.entrysGet()
 
         self.cursor.execute(
@@ -57,6 +59,7 @@ class window:
         self.connect.commit()
 
     def modifyTable(self):
+        ###############Modify something on a existent number###############
         self.entrysGet()
 
         self.cursor.execute(
@@ -75,6 +78,7 @@ class window:
         self.connect.commit()
 
     def deleteButton(self):
+        ###############Delete the user by number###############
         self.entrysGet()
         self.cursor.execute(
             """
@@ -93,6 +97,7 @@ class window:
         self.connect.commit()
 
     def secondDeleteButton(self):
+        ###############Delete the user by name###############
         self.entrysGet()
         self.cursor.execute(
             """
@@ -111,6 +116,7 @@ class window:
         self.connect.commit()
 
     def thirdDeleteButton(self):
+        ###############Delete the user by E-mail###############
         self.entrysGet()
         self.cursor.execute(
             """
@@ -152,6 +158,7 @@ class window:
         self.tree.place(x=250, y=60, relwidth=0.69, relheight=0.88)
 
     def searchButton(self):
+        ###############Search contacts button###############
         self.treeview()
         self.tree.delete(*self.tree.get_children())
 
@@ -174,6 +181,7 @@ class window:
         self.inpSearch.delete(0, END)
 
     def seeEveryThing(self):
+        ###############Return to the main part###############
         self.inpSearch.delete(0, END)
 
         self.treeview()

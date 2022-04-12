@@ -1,1 +1,0 @@
-First version of my school agenda project.
