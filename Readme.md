@@ -22,12 +22,12 @@ To add someone you need to fill up the entrys and click in "adicionar".
 To remove someone you need to choose between the E-mail the number or the name and write in te respective entry
 and then click in "remover".
 <img src="/Media/remove.png"/>
-[To update someone's data you need to type the person's number anthen modify what you want and then click in "atualizar"] This feature is broken im working on that...
+[To update someone's data you need to type the person's number and then modify what you want and then click in "atualizar"] This feature is broken im working on that...
 <img src=""/>
 You can search someone by his name (if tow or more people have the same name all of them will be showed) in the "pesquise" area
-and then click in "pesquisar" you can return to see all number by clicking "ver todos".
+and then click in "pesquisar" you can return to see all numbers by clicking "ver todos".
 <img src="/Media/search_01.png"/><img src="/Media/search.png"/>
-If you want to egt out of the applicatin you cn click inte "x" or press the "sair" button.
+If you want to exit out of the applicatin you can click inte "x" or press the "sair" button.
 <img src="/Media/see_all.png"/>
 
 <h2>Prerequisites</h2>
@@ -36,4 +36,3 @@ If you want to egt out of the applicatin you cn click inte "x" or press the "sai
   <li>Tkinter</li>
   <li>Sqlite3</li>
 </ul>
-
