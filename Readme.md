@@ -27,8 +27,9 @@ To update someone's data you need to type the person's number and then modify wh
 You can search someone by his name (if tow or more people have the same name all of them will be showed) in the "pesquise" area
 and then click in "pesquisar" you can return to see all numbers by clicking "ver todos".
 <img src="/Media/search.png"/>
-If you want to exit out of the applicatin you can click inte "x" or press the "sair" button.
 <img src="/Media/see_all.png"/>
+If you want to exit out of the applicatin you can click inte "x" or press the "sair" button.
+<img src="/Media/exit.png"/>
 
 <h2>Prerequisites</h2>
 <ul>
