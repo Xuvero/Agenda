@@ -64,13 +64,13 @@ class window:
 
         self.cursor.execute(
             '''
-            update info set nome=?, sex=?, number=?, email=?
+            update info set nome=?, sex=?, email=? where number=?
             ''', 
                 (
                 self.name, 
                 self.sex, 
-                self.number, 
-                self.email
+                self.email,
+                self.number 
                 )
             )
 
